@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+  <title>Document</title>
+
+  <link href="adminstyle.css" rel="stylesheet">
+</head>
+
+<body>
+  <h2>WELCOME BACK SIR</h2>
+
+  <div class="container" id="container">
+
+    <h3 class="info" id="info">100+ Patients registered today</h3>
+
+
+
+
+    <div class="blankdiv" id="blankdiv"> </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="#" id="admin">Add Admin</a>
+        <a href="#" id="doctor">Add Doctors</a>
+        <a href="#" id="staff">Create Branch</a>
+      </div>
+    </div>
+
+    <form method="POST" action="logout.php">
+      <button type="submit" class="report" name="logoutbtn">Logout</button>
+    </form>
+    <button class="Branches">Branches</button>
+
+
+    <!-- Admin  ADD Form  -->
+
+    <div class="form-popup" id="myForm">
+      <form method="POST" action="add.php" class="form-container">
+        <h3>Create Admin</h3>
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Create Username" name="username" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Choose Password" name="password" required>
+        <label for="number"><b>Number</b></label>
+        <input type="tel" placeholder="Enter mobile number" name="number" required>
+
+        <button type="submit"  name="addadmin" class="btn">Add</button>
+      </form>
+
+      <button class="close" id="cut">Close/Cancel</button>
+
+    </div>
+
+    <!-- Doctors  ADD Form  -->
+
+
+    <div class="form-popup" id="myForm2">
+      <form method="POST" action="add.php" class="form-container">
+        <h3>Enter follwoing Details</h3>
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Create Username" name="username" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Choose Password" name="password" required>
+        <label for="number"><b>Number</b></label>
+        <input type="tel" placeholder="Enter mobile number" name="number" required>
+
+        <button type="submit" name="adddoctor" class="btn">Add</button>
+      </form>
+
+      <button class="close" id="cut2">Close/Cancel</button>
+
+    </div>
+
+
+
+    <!-- Staff  ADD Form-->
+
+
+    <div class="formstaff1" id="myForm3">
+
+      <form action="add.php" method="POST" class="formstaff">
+        <label for="name"><b>Branch name</b></label>
+        <input type="text" id="branchtext" class="branchtext" placeholder="Enter branch name" required name="branch">
+        <label for="name"><b>name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Create Username" name="username" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Choose Password" name="password" required>
+        <label for="number"><b>Number</b></label>
+        <input type="tel" placeholder="Enter mobile number" name="number" required>
+        <button type="submit" name="addstaff" class="btn">Add</button>
+      </form>
+      <button class="close1" id="cut3">Close/Cancel</button>
+
+    </div>
+
+
+
+
+
+  </div>
+
+  <script src="adminjs.js"> </script>
+</body>
+
+</html>

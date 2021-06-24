@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+
+
+
+
+.container1 {
+	background-color: lavender;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+    min-height: 100%; 
+	max-width: 100%;
+	min-height: 480px;
+}
+
+
+
+
+
+.blankdiv{
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:default;
+    position: absolute;
+    left:0%;
+    top: 0%;
+    height:50px;
+    width: 100%;
+
+}
+
+.logoutbtn{
+
+
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+    position: absolute;
+    left:88%;
+    top: 0%;
+}
+.logoutbtn{
+    
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left:88%;
+    top: 0%;
+}
+
+
+.info{
+    position:absolute;
+    top: 76%;
+    left: 3%;
+    color: #e71111;
+    font-size: larger;;
+
+  }
+
+  h2 {
+	text-align: center;
+    position: relative;
+    color: #134236;
+}
+.chart{
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    overflow: hidden;
+    width: 770px;
+}
+.highcharts-description{
+    position: absolute;
+    top: 81%;
+    left: 10px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.text{
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor:default;
+    position: absolute;
+    left:0%;
+    top:-28px;
+}
