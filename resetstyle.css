@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box; 
+}
+html {
+	background: #ffffff;
+  }
+  
+  body {
+	  background: #ffffff;
+	  margin:0;
+	  padding:0; 
+	  font-family: 'Lato', sans-serif;
+  }
+
+.reset-form {
+	background: radial-gradient(ellipse at center,  rgba(81,112,173,1) 0%,rgba(53,84,147,1) 100%);
+	border:1px solid #ffffff;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+    
+	width: 800px;
+	height: 500px;
+	margin: 60px;
+    position: absolute;
+    top:10%;
+    left: 20%;
+	padding: 50px 30px 0 30px;
+	text-align: center;
+}
+.form{
+    position:relative;
+    top: 10%;
+}
+	
+    h1 {
+		margin:0 0 50px 0;
+		padding: 0;  
+		font-size: 26px;
+		color: #fff;
+	}
+	.backbutton{
+		width: 15%;
+		background-color: #314d89;
+		color: #fff;
+		font-weight: bold;
+		position: absolute;
+		top: 75%;
+		left: 42%;
+		border-radius: 5px;
+		border-color: #fff;
+	}
+
+
+input[type="username"]{
+		width: 50%;
+        
+		border: 1px solid #314d89;
+		outline: none;
+		padding: 12px 20px;
+		color: #000000;
+		font-weight: bold;
+	  font-family: 'Lato', sans-serif;
+    cursor:text;
+    
+		border-bottom: none; 
+		border-radius: 4px 4px 0 0;
+		padding-bottom: 13px;
+		box-shadow: 0 -1px 0 #E0E0E0 inset,
+					0 1px 2px rgba(0, 0, 0, 0.23) inset;
+
+	}
+
+#tel{
+		width: 50%; 
+		
+		border: 1px solid #314d89;
+		outline: none;
+		padding: 12px 20px;
+		color: #000000;
+		font-weight: bold;
+	  font-family: 'Lato', sans-serif;
+    cursor:text;
+    margin-top:20px;
+    border-top: none; 
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.23) inset,
+                0 1px 2px rgba(255, 255, 255, 0.1);
+	}
+
+	
+
+
+
+input[type="submit"] {
+	  font-family: 'Lato', sans-serif;
+	  font-weight: 400;
+      background-color: #6c97d867;
+  color: white;
+  cursor:pointer;
+	
+		display: block;
+		margin: 20px auto 0 auto;
+		width: 50%;
+		border: none;
+		border-radius: 3px;
+		padding: 8px;
+		font-size: 17px;
+		
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+		font-weight: 700;
+		
+    
+}
+input[type="submit"]:hover{
+    background-color: rgba(24, 136, 211, 0.986);
+    
+
+    
+} 
+

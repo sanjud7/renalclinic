@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+<link href="staffstyle.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Hey you are the backbone of this clinic</h2>
+
+    <div class="container" id="container">
+
+        <p class="stafflogin">Staff Login</p>
+        <p class="stafflogin1">Lunch-Time:2PM</p>
+        <button class="addpatient" id="addpatient">Add patient</button>
+
+        
+    <div class="form-popup" id="myForm4">
+        <form method="POST" action="add.php" class="form-container">
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name" required>
+          <label for="Email"><b>Email</b></label>
+          <input type="email" placeholder="Enter email" name="email" required>
+          <label for="number"><b>Number</b></label>
+          <input type="tel" placeholder="Enter mobile number" name="number" required>
+          <label for="address"><b>Address</b></label>
+          <input type="text" placeholder="Enter address" name="address" required>
+  
+          <button type="submit"  name="addpateint" class="btn">Add</button>
+        </form>
+  
+        <button class="close" id="cut4">Close/Cancel</button>
+  
+      </div>
+  
+  
+      
+  
+  
+  
+  
+      <div class="blankdiv" id="blankdiv"> </div>
+      <form method="POST" action="logout.php">
+        <button type="submit" class="logoutbtn" name="logoutbtn">Logout</button>
+      </form>
+  
+  
+
+     
+  
+      
+     
+    </div>
+<script>
+
+document.getElementById("addpatient").addEventListener("click",pateintadd,false);
+var a=0; 
+function pateintadd(){
+    if(a==0)
+    {
+    document.getElementById("myForm4").style.display = "block";
+    }
+    if(a==0){
+        document.getElementById ("cut4").addEventListener ("click", closemyform, false);
+        function closemyform(){   
+        document.getElementById("myForm4").style.display = "none";
+        }
+    }
+    
+ }
+</script>
+
+</body> 
+</html>

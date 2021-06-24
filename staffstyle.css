@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+
+
+
+
+.container {
+    background-color: rgb(255, 255, 255);
+    background-image: url(addpatient.jpeg);
+ 
+   
+    background-position-x: -20px;
+    background-position-y: 10px;
+    background-size:500px;
+  
+    background-repeat: no-repeat;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+    min-height: 100%; 
+	max-width: 100%;
+	min-height: 480px;
+}
+
+
+
+
+
+.blankdiv{
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:default;
+    position: absolute;
+    left:0%;
+    top: 0%;
+    height:50px;
+    width: 100%;
+
+}
+
+.logoutbtn{
+
+
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+    position: absolute;
+    left:88%;
+    top: 0%;
+}
+
+
+
+  h2 {
+	text-align: center;
+    position: relative;
+    color: #134236;
+}
+.chart{
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    overflow: hidden;
+    width: 770px;
+}
+
+.text{
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor:default;
+    position: absolute;
+    left:0%;
+    top:-28px;
+}
+.stafflogin{
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:default;
+    position: absolute;
+    font-weight: bold;
+    left: 2px;;
+    top: -20px;
+    z-index: 1;
+}
+.stafflogin1{
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:default;
+    position: absolute;
+    font-weight: bold;
+    left: 40%;
+    top: -20px;
+    z-index: 1;
+}
+.addpatient{
+    position: absolute;
+    top: 14%;
+    left: 69%;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: powderblue;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.form-popup {
+    display:none;
+    width: 300px;
+    
+    
+    bottom: 0;
+    right: 15px;
+   
+    
+    position: absolute;
+    left:58%;
+    top: 21%;
+    opacity: 1;
+  }
+  
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: absolute;
+    left:20%;
+    top: 5%;
+
+  }
+
+  .form-container input[type=text], .form-container input[type=tel],.form-container input[type=email] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus,.form-container input[type=email]:focus  {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-container .btn {
+    background-color: #03613f;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    margin:3px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+
+  
+  }
+
+.close{
+    background-color: #03613f;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 110px;
+    height: 39px;
+    position: absolute;
+    top: 78%;
+    left: 62%;
+    border-radius: 10px;
+}
+
+  
+
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
